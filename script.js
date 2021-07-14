@@ -10,7 +10,7 @@ mainBtn.addEventListener('click', makeSomeString);
 
 function makeSomeString() {
     for (var i = 0; i < 5; i++)
-        result = Math.random().toString(36).substring(11);
+        result = Math.random().toString(36).substring(8);
         mainInput.value = result;
         mainInput.classList.add('black');
     if (result.includes('0')) {
