@@ -1,1 +1,1 @@
-# pracrice_generator
+# random string and password generator
